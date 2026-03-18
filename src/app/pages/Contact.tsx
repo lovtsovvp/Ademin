@@ -25,7 +25,7 @@ export function Contact() {
 
     try {
       const response = await fetch(
-        `https://${projectId}.supabase.co/functions/v1/make-server-9b54e9f0/send-email`,
+        `https://formspree.io/f/xgonrybz`,
         {
           method: "POST",
           headers: {
