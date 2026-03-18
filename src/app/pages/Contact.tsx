@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 import { MetroTile } from "../components/MetroTile";
 import { Mail, Phone, Send } from "lucide-react";
 import { useState } from "react";
-import { projectId, publicAnonKey } from "../../../utils/supabase/info";
 
 import {
   VKIcon,
@@ -17,6 +16,7 @@ export function Contact() {
     phone: "",
     message: "",
   });
+
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -24,31 +24,28 @@ export function Contact() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(
-        `https://formspree.io/f/xgonrybz`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "Authorization": `Bearer ${publicAnonKey}`,
-          },
-          body: JSON.stringify(formData),
-        }
-      );
+      const response = await fetch("https://formspree.io/f/xgonrybz", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
       const result = await response.json();
 
       if (!response.ok) {
-        console.error("Server error:", result);
-        alert("Ошибка отправки сообщения. Попробуйте позже.");
+        console.error(result);
+        alert("Ошибка отправки сообщения");
         return;
       }
 
-      alert("Спасибо! Сообщение успешно отправлено.");
+      alert("Спасибо! Сообщение отправлено.");
       setFormData({ name: "", email: "", phone: "", message: "" });
     } catch (error) {
-      console.error("Error sending message:", error);
-      alert("Ошибка отправки сообщения. Проверьте подключение к интернету.");
+      console.error(error);
+      alert("Ошибка сети");
     } finally {
       setIsSubmitting(false);
     }
@@ -65,6 +62,7 @@ export function Contact() {
 
   return (
     <div className="pt-16 min-h-screen">
+      
       {/* Hero */}
       <section className="bg-secondary/20 py-20">
         <div className="max-w-7xl mx-auto px-4">
@@ -87,10 +85,10 @@ export function Contact() {
         </div>
       </section>
 
-      {/* Contact Content */}
+      {/* Content */}
       <section className="max-w-7xl mx-auto px-4 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          
+
           {/* Form */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -119,7 +117,7 @@ export function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="ademinproduction@gmail.com"
+                  placeholder="Ваш email"
                   className="w-full px-4 py-3 bg-input border border-border focus:border-primary outline-none"
                 />
 
