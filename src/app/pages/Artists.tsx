@@ -9,6 +9,7 @@ import {
   TelegramIcon,
   YouTubeIcon,
   InstagramIcon,
+  WebsiteIcon
 } from "../icons";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { artists } from "../data/artists";
@@ -18,6 +19,7 @@ const socialIcons = {
   telegram: TelegramIcon,
   youtube: YouTubeIcon,
   instagram: InstagramIcon,
+  website: WebsiteIcon
 };
 
 export function Artists() {
