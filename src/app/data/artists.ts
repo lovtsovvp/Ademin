@@ -33,9 +33,7 @@ export const artists: Artist[] = [
       },
     ],
     socials: {
-      instagram: "#",
-      youtube: "#",
-      website: "#",
+      vk: "https://vk.com/id12917775",
     },
   },
   {
@@ -77,9 +75,8 @@ export const artists: Artist[] = [
       },
     ],
     socials: {
-      instagram: "#",
-      youtube: "#",
-      website: "#",
+      youtube: "https://www.youtube.com/@miksavichev",
+      vk: "https://vk.com/miksavichev",
     },
   },
 ];
