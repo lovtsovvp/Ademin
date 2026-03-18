@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { MetroTile } from "../components/MetroTile";
 import { Mail, Phone, Send } from "lucide-react";
 import { useState } from "react";
-import { projectId, publicAnonKey } from "../../utils/supabase/info";
+import { projectId, publicAnonKey } from "../../config/supabase";
 
 import {
   VKIcon,
