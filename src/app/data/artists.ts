@@ -58,6 +58,7 @@ export const artists: Artist[] = [
       vk: "https://vk.com/elinapasechnik",
       youtube: "https://www.youtube.com/channel/UCyRFCxxHW8I7AmlMrp-OAKw",
       telegram: "https://t.me/elinapasechnik",
+      website: "https://elina.tb.ru/#text-2",
     },
   },
   {
@@ -77,6 +78,7 @@ export const artists: Artist[] = [
     socials: {
       youtube: "https://www.youtube.com/@miksavichev",
       vk: "https://vk.com/miksavichev",
+      website: "https://www.mikhailsavichev.com/",
     },
   },
 ];
