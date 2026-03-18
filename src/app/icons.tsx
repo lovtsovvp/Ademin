@@ -124,3 +124,18 @@ export const FacebookIcon: React.FC<IconProps> = ({ size = 24, className = '' })
     </svg>
   );
 };
+export const WebsiteIcon: React.FC<IconProps> = ({ size = 24, className = '' }) => {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 
+               10-4.477 10-10S17.523 2 12 2zm6.93 9h-3.18a15.72 15.72 0 0 0-1.14-5.01A8.03 8.03 0 0 1 18.93 11zM12 4.07c.88 1.3 1.54 3.07 1.8 4.93h-3.6c.26-1.86.92-3.63 1.8-4.93zM4.07 13h3.18c.1 1.82.5 3.57 1.14 5.01A8.03 8.03 0 0 1 4.07 13zm3.18-2H4.07a8.03 8.03 0 0 1 4.32-5.01A15.72 15.72 0 0 0 7.25 11zm.75 2h4v4.93c-.88-1.3-1.54-3.07-1.8-4.93zm4-2h-4c.26-1.86.92-3.63 1.8-4.93V11zm.75 2h4.18a15.72 15.72 0 0 1-1.14 5.01A8.03 8.03 0 0 1 12.75 13zm0-2V6.07c.88 1.3 1.54 3.07 1.8 4.93h-1.8z"/>
+    </svg>
+  );
+};
