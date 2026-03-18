@@ -207,7 +207,7 @@ export function Contact() {
                 <div className="flex gap-4">
 
                   <a
-                    href="https://t.me/"
+                    href="https://t.me/@Alexdemo75"
                     target="_blank"
                     className="bg-white text-primary p-3 hover:scale-110 transition-all"
                   >
@@ -222,13 +222,6 @@ export function Contact() {
                     <VKIcon size={24} />
                   </a>
 
-                  <a
-                    href="https://instagram.com/"
-                    target="_blank"
-                    className="bg-white text-primary p-3 hover:scale-110 transition-all"
-                  >
-                    <InstagramIcon size={24} />
-                  </a>
 
                 </div>
               </MetroTile>
