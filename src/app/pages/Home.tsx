@@ -20,7 +20,7 @@ export function Home() {
       <section className="relative h-[800px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="https://sun9-13.userapi.com/s/v1/ig2/FeRtmkUJrBaK0EfpG_0FGNQ_1C2x6MzsZsoJsCc_tyjyBXPQUuQIEYwRboZq8w_PK3SM2g1giI0O0lTkGS95y4RN.jpg?quality=96&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960&from=bu&cs=1280x0" /* Главное фото на странице */
+            src="https://avatars.mds.yandex.net/i?id=4c0739726ead99689a91631ac53cb009b67af96f-4231391-images-thumbs&n=13" /* Главное фото на странице */
             alt="Concert Stage"
             className="w-full h-full object-cover opacity-30"
           />
