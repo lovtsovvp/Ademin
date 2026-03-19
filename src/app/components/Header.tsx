@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const navItems = [
   { path: "/", label: "Главная" },
