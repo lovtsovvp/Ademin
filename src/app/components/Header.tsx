@@ -23,7 +23,7 @@ export function Header() {
             {/* Логотип */}
             <div className="w-10 h-10 bg-primary flex items-center justify-center">
               <ImageWithFallback
-                src="https://chatgpt.com/backend-api/estuary/content?id=file_00000000f448720aa43fce70c04e94dd&ts=492760&p=fs&cid=1&sig=e200def901ca970a24cab56e3058475a7d8f536be5e12bf208d492655fa59ed9&v=0"
+                src="logo.png"
                 alt="Logo"
                 className="w-full h-full object-cover"
               />
