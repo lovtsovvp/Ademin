@@ -13,8 +13,19 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1718180867951-964ccef2f37b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb2NrJTIwYmFuZCUyMGxpdmUlMjBjb25jZXJ0fGVufDF8fHx8MTc3Mjg5MDAwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    title: "Рок-концерт",
+    src: "https://thumb.cloud.mail.ru/weblink/thumb/xw1/dwSA/KQh4E2T9d/2C0010.00_34_47_18.Still032%20копия_00000.jpg?mt=1745087950000",
+    title: "Свидание при свечах",
+    category: "Концерты",
+  },
+   {
+    id: 3,
+    src: "https://sun9-39.userapi.com/s/v1/ig2/gqAh4bhhVteNKGKjPa69YBs6kbK5bRFUHmc-KljmM-xZAUtNETUAHA-u4PsJvnhwQ451w38_L3gOm6ni2n9md5xc.jpg?quality=95&as=32x48,48x72,72x108,108x162,160x240,240x360,360x540,480x720,540x810,640x960,720x1080,1080x1620,1280x1920,1440x2160&from=bu&cs=1440x0",
+    title: "Sheila Alex",
+  },
+  {
+    id: 4,
+    src: "https://thumb.cloud.mail.ru/weblink/thumb/xw1/dwSA/KQh4E2T9d/C0002.00_21_10_07.Still025_31757.jpg?mt=1726957129000",
+    title: "Свидание при свечах",
     category: "Концерты",
   },
   
