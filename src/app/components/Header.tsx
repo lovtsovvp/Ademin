@@ -15,14 +15,22 @@ export function Header() {
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  return (
+ return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-xl border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-xl font-bold text-primary hover:opacity-80 transition-opacity">
-            КОНЦЕРТНЫЙ ДИРЕКТОР
+          <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            {/* Логотип */}
+            <div className="w-10 h-10 bg-primary flex items-center justify-center">
+              <ImageWithFallback
+                src="https://chatgpt.com/backend-api/estuary/content?id=file_00000000f448720aa43fce70c04e94dd&ts=492760&p=fs&cid=1&sig=e200def901ca970a24cab56e3058475a7d8f536be5e12bf208d492655fa59ed9&v=0"
+                alt="Logo"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <span className="text-xl font-bold text-primary">КОНЦЕРТНЫЙ ДИРЕКТОР</span>
           </Link>
-
+          
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-1">
             {navItems.map((item) => (
