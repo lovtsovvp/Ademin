@@ -23,7 +23,7 @@ export function Header() {
             {/* Логотип */}
             <div className="w-10 h-10 bg-primary flex items-center justify-center">
               <ImageWithFallback
-                src=""
+                src="logo.png"
                 alt="Logo"
                 className="w-full h-full object-cover"
               />
