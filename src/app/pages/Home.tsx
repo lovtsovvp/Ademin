@@ -20,7 +20,7 @@ export function Home() {
       <section className="relative h-[800px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="blob:https://web.telegram.org/606e4666-0ba9-4e75-8e8e-c233353b224a" /* Главное фото на странице */
+            src="https://web.telegram.org/606e4666-0ba9-4e75-8e8e-c233353b224a" /* Главное фото на странице */
             alt="Concert Stage"
             className="w-full h-full object-cover opacity-30"
           />
