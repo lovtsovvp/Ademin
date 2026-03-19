@@ -20,7 +20,7 @@ export function Home() {
       <section className="relative h-[800px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="https://www.pitipit.eu/wp-content/uploads/Musik-16-2048x1366.jpg" /* Главное фото на странице */
+            src="https://avatars.mds.yandex.net/i?id=01a9b922ae8274d1471093108787d6ec_l-10807932-images-thumbs&n=13" /* Главное фото на странице */
             alt="Concert Stage"
             className="w-full h-full object-cover opacity-30"
           />
