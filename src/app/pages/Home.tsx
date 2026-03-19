@@ -20,7 +20,7 @@ export function Home() {
       <section className="relative h-[800px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="https://avatars.mds.yandex.net/i?id=4c0739726ead99689a91631ac53cb009b67af96f-4231391-images-thumbs&n=13" /* Главное фото на странице */
+            src="https://images.musement.com/cover/0002/34/thumb_133085_cover_header.jpeg" /* Главное фото на странице */
             alt="Concert Stage"
             className="w-full h-full object-cover opacity-30"
           />
