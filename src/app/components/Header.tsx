@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import logo from "./logo.png";
 
 const navItems = [
   { path: "/", label: "Главная" },
@@ -24,7 +25,7 @@ export function Header() {
             {/* Логотип */}
             <div className="w-10 h-10 bg-primary flex items-center justify-center">
               <ImageWithFallback
-                src="logo.png"
+                src={logo}
                 alt="Logo"
                 className="w-full h-full object-cover"
               />
